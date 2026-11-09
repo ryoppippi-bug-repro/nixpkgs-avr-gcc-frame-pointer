@@ -1,6 +1,6 @@
 # avr-gcc from nixpkgs forces frame pointers and grows AVR firmware
 
-Reproduction for ISSUE_LINK. nixpkgs `f4a03c008967841f2a0b3cb7c436fc6fc31671f6` (nixos-unstable), avr-gcc 16.2.0, Nix 2.34.9, tested on aarch64-darwin.
+Reproduction for https://github.com/NixOS/nixpkgs/issues/585479. nixpkgs `f4a03c008967841f2a0b3cb7c436fc6fc31671f6` (nixos-unstable), avr-gcc 16.2.0, Nix 2.34.9, tested on aarch64-darwin.
 
 ## Steps
 
