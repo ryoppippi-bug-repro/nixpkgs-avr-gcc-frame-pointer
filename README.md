@@ -29,7 +29,7 @@ uint32_t mix(uint32_t x, uint32_t y) {
 
 compiled with `avr-gcc -mmcu=atmega32u4 -Os -c main.c`, the object is 142 bytes instead of 130 (+9%).
 
-In a real QMK keyboard firmware for an ATmega32u4 (Pro Micro), the whole image is 17,076 bytes with the wrapper as shipped and 16,142 bytes without that flag: 934 bytes (5.5%) of a 28,672-byte flash budget.
+In a real QMK keyboard firmware for an ATmega32u4 (Pro Micro), the whole image is 17,076 bytes with the wrapper as shipped (hardening already disabled) and 16,142 bytes without that flag: 934 bytes, 5.5% of the image, on a chip with 28,672 bytes of usable flash.
 
 ## Cause
 
